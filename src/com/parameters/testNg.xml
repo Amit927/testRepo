@@ -1,0 +1,13 @@
+<suite name = "jd websuite">
+<test name = "login test">
+
+<parameter name = "url" value = "https://www.justdial.com" />
+<parameter name = "mobnumber" value = "8792761869" />
+<parameter name = "password" value = "amit...." />
+
+<classes>
+<class name = "com.parameters.ParameterTest" />
+</classes>
+
+</test>
+</suite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Websites" parallel="false">
+  <test name="Openwebsite">
+    <classes>
+      <class name="jdwebautomatn.Class1xmlfile"/>
+      <class name="jdwebautomatn.Class2"/>
+       <class name="jdwebautomatn.Webhome"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

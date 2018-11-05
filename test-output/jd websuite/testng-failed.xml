@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [jd websuite]">
+  <test thread-count="5" name="login test(failed)">
+    <parameter name="password" value="amit...."/>
+    <parameter name="mobnumber" value="8792761869"/>
+    <parameter name="url" value="https://www.justdial.com"/>
+    <classes>
+      <class name="com.parameters.ParameterTest">
+        <methods>
+          <include name="jdloginTest"/>
+        </methods>
+      </class> <!-- com.parameters.ParameterTest -->
+    </classes>
+  </test> <!-- login test(failed) -->
+</suite> <!-- Failed suite [jd websuite] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Websites]">
+  <test thread-count="5" name="Openwebsite(failed)">
+    <classes>
+      <class name="jdwebautomatn.Class1xmlfile">
+        <methods>
+          <include name="closebrows"/>
+          <include name="launchbrowser"/>
+          <include name="hotelr"/>
+        </methods>
+      </class> <!-- jdwebautomatn.Class1xmlfile -->
+      <class name="jdwebautomatn.Class2">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="closebrows"/>
+          <include name="hotelr"/>
+        </methods>
+      </class> <!-- jdwebautomatn.Class2 -->
+    </classes>
+  </test> <!-- Openwebsite(failed) -->
+</suite> <!-- Failed suite [Websites] -->
